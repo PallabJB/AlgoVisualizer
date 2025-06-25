@@ -28,12 +28,14 @@
 ### Sorting Algorithm Visualization
 Selection Sort in action:
 
-![Selection Sort](./assets/sorting-visualizer.png)
+![Screenshot 2025-06-25 151534](https://github.com/user-attachments/assets/df470ff5-6704-4905-a825-02e3cf260529)
+
 
 ### Pathfinding Algorithm Visualization  
 Bidirectional Search visualized in a maze:
 
-![Pathfinding - BDS](./assets/pathfinding-bds.png)
+![Screenshot 2025-06-25 151518](https://github.com/user-attachments/assets/2e4e5027-73b9-45b0-adeb-6e0befb222cb)
+
 
 ---
 
