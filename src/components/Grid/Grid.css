@@ -1,0 +1,97 @@
+/* src/components/Grid/Grid.css */
+.board {
+  display: grid;
+  grid-template-columns: repeat(50, 18px);
+  grid-template-rows: repeat(25, 18px);
+  gap: 1px;
+  margin: 1em auto;
+  width: fit-content;
+  background: #222;
+  border-radius: 8px;
+  padding: 0.5em;
+}
+
+.cell {
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+  font-size: 1em;
+  user-select: none;
+}
+
+.cell.wall {
+  background: #0f0f0f;
+}
+
+.cell.weight {
+  background: #5a3103;
+}
+
+.cell.start {
+  background: #06f802;
+}
+
+.cell.target {
+  background: #fc0505;
+}
+.cell.visited {
+  background: #dc0df3 !important;
+  transition: background 0.1s;
+}
+.cell.path {
+  background: #049bec !important;
+  transition: background 0.1s;
+}
+
+.stats-panel {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin: 1em 0 0.5em 0;
+  color: #facc15;
+  font-size: 1.1em;
+}
+
+.algorithm-explanation {
+  background: #222;
+  color: #ffe066;
+  padding: 0.1em;
+  margin: 0.1em 0;
+  border-radius: 8px;
+  min-height: 60px;
+}
+.algorithm-explanation h3 {
+  margin: 0 0 0.01em 0;
+}
+
+.algorithm-comparison {
+  background: #181818;
+  color: #ffe066;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  max-width: 600px;
+}
+.comparison-table {
+  display: flex;
+  gap: 2em;
+  justify-content: space-around;
+}
+.comparison-table div {
+  min-width: 180px;
+}
+.comparison-table ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+}
+
+
+
+

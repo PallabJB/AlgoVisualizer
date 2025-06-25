@@ -1,0 +1,44 @@
+.sorting-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 2em auto;
+  background: #222;
+  border-radius: 10px;
+  padding: 2em 1em;
+}
+
+.sorting-controls {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.sorting-bars {
+  display: flex;
+  align-items: flex-end;
+  height: 220px;
+  background: #18181b;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bar {
+  flex: 1;
+  margin: 0 1px;
+  background: #38bdf8;
+  border-radius: 2px 2px 0 0;
+  transition: height 0.15s, background 0.1s;
+}
+
+.bar.active {
+  background: #facc15;
+}
+.stats-panel {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin: 1em 0 0.5em 0;
+  color: #facc15;
+  font-size: 1.1em;
+}
